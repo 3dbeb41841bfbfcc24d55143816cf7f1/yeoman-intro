@@ -2,10 +2,10 @@
 
 ## Table of Contents
 * [First Things First](#first-things-first)
-* [What is Yeoman?](#what-is-yeoman?)
-* [What is Grunt / Gulp?](#what-is-grunt--gulp?)
+* [What is Yeoman?](#what-is-yeoman)
+* [What is Grunt / Gulp?](#what-is-grunt--gulp)
 * [Is Gulp > Grunt](#is-gulp--grunt)
-* [What is Bower (and how is it different from `npm`)?](#what-is-bower-and-how-is-it-different-from-npm)?)
+* [What is Bower (and how is it different from `npm`)?](#what-is-bower-and-how-is-it-different-from-npm)
 * [How `npm` manages dependencies](#how-npm-manages-dependencies)
 * [How `bower` manages dependencies](#how-bower-manages-dependencies)
 * [Common Bower Commands](#common-bower-commands)
