@@ -226,7 +226,14 @@ The generator will then do the following:
   - a preconfigured `package.json` file
   - a preconfigured `bower.json` file
   - basically a full skeleton of your new _AngualarJS_ project!
-* Run `npm install` and `bower install` to install the project dependencies (this can take a while the first time it is run).
+* Run `npm install` and `bower install` to install the project dependencies (this can take a while the first time it is run, typically 2 to 3 minutes).
+
+To fully test our project, run the following:
+
+```bash
+gulp        # does a full build, including running unit tests, linting, minification, and packaging
+gulp serve # run a development server that serves up your app.
+```
 
 ### Tour of the Generated Project
 
