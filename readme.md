@@ -1,4 +1,4 @@
-# Introduction to the Yeoman `gulp-angular` Generator
+# Introduction to Yeoman and the `gulp-angular` Generator
 
 ## Table of Contents
 * [First Things First](#first-things-first)
