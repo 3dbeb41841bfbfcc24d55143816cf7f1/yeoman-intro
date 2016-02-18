@@ -1,5 +1,21 @@
 # Introduction to the Yeoman `gulp-angular` Generator
 
+## Table of Contents
+* [First Things First](#first-things-first)
+* [What is Yeoman?](#what-is-yeoman?)
+* [What is Grunt / Gulp?](#what-is-grunt--gulp?)
+* [Is Gulp > Grunt](#is-gulp--grunt)
+* [What is Bower (and how is it different from `npm`)?](#what-is-bower-and-how-is-it-different-from-npm)?)
+* [How `npm` manages dependencies](#how-npm-manages-dependencies)
+* [How `bower` manages dependencies](#how-bower-manages-dependencies)
+* [Common Bower Commands](#common-bower-commands)
+* [The `gulp-angular` Generator](#the-gulp-angular-generator)
+* [Gulp Angular Generator Features](#gulp-angular-generator-features)
+* [Before Running the Generator](#before-running-the-generator)
+* [Running the Generator](#running-the-generator)
+* [Tour of the Generated Project](#tour-of-the-generated-project)
+* [Now Have Some Fun Playing With The Generated Project (it's _RAD_)](#now-have-some-fun-playing-with-the-generated-project-its-rad)
+
 ## First Things First
 
 ### What is Yeoman?
@@ -99,7 +115,7 @@ bower list                        # look for updates to installed packages
 
 ## The `gulp-angular` Generator
 
-### Features:
+### Gulp Angular Generator Features
 * Generates a modern _AngularJS_ web app with _Gulp_ pre-configured as the task runner.
 * Supports many options, including:
   - jQuery:
