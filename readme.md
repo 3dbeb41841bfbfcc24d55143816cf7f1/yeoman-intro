@@ -33,10 +33,10 @@
 
 ### Is Gulp > Grunt
 * _Gulp_ is _much faster_ than Grunt, due to its `stream` architecture
-* _Grunt_ is a little easier to learn / configure.
+* But _Grunt_ is a little easier to learn / configure.
 
 ### What is Bower (and how is it different from `npm`)?
-* Bower manages your web project's _client-side_ dependencies, such as:
+* _Bower_ manages your web project's _client-side_ dependencies, such as:
   - jQuery
   - Twitter Bootstrap
   - AngularJS
@@ -44,11 +44,21 @@
   - animate.css
   - font-awesome
 * See [Bower Stats](http://bower.io/stats/)
-* How is `bower` different from `npm`?
-  - `npm` is used for _server-side_ dependencies.
+* _NPM_ manages your web project's _server-side_ dependencies, such as:
+  - `express`
+  - `morgan`
+  - `jade`
+  - `cookie-parser`
+  - `body-parser`
+  - `method-override`
+  - `bcrypt-nodejs`
+  - `passport`
+  - `bower`
+  - `gulp` or `grunt`
+* Why 2 tools for managing dependencies?
+  - `bower` and `npm` are optimized for slightly different problems
   - `npm` can manage multiple versions of the same library in the same project.
     * "It is much harder to avoid dependency conflicts without nesting dependencies. This is fundamental to the way that npm works, and has proven to be an extremely successful approach."
-  - `bower` is used for _client-side_ dependencies.
   - `bower` requires you to resolve version conflicts.
     * "Bower is optimized for the front-end. Bower uses a flat dependency tree, requiring only one version for each package, reducing page load to a minimum."
 
@@ -205,3 +215,9 @@ The generator will then do the following:
 ### Tour of the Generated Project
 
 Now we will take a quick tour of what the generator produces for us.
+
+....
+
+### Now Have Some Fun Playing With The Generated Project (it's _RAD_)
+
+....
