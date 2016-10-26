@@ -175,8 +175,8 @@ First let's make sure you have the tools you will need installed to your laptop.
 #!/bin/bash
 
 echo "Installing latest stable version of NodeJS"
-nvm install 5.6.0
-nvm alias default 5.6.0
+nvm install 6.0.0
+nvm alias default 6.0.0
 nvm use default
 
 echo "updating npm"
